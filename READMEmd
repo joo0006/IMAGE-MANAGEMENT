@@ -1,0 +1,59 @@
+# Image Management System
+
+This project is an image collection management system that allows users to manage and categorize a collection of images.
+
+## Features
+
+- **User Authentication and Authorization:**
+  - Secure login page with authentication and authorization mechanisms.
+  - Support for two types of users: normal users and administrators.
+  - Normal users have access to the dashboard, while administrators can access both admin and normal dashboards.
+
+- **Image Upload and Management:**
+  - Admins can upload images to the system.
+  - Uploaded images are stored locally via a backend solution.
+
+- **Rule-Based Access Control (RBAC):**
+  - Robust RBAC system with roles for normal users and administrators.
+  - Normal users have restricted access, while administrators have full control.
+
+- **Lazy Loading and Pagination:**
+  - Lazy loading for images to optimize performance.
+  - Pagination to efficiently handle a large number of images.
+
+- **Error Handling and Logging:**
+  - Proper error handling mechanisms to handle exceptions and errors gracefully.
+  - Logging of errors and exceptions using an appropriate logging framework.
+
+- **Main Page Dashboard:**
+  - Dashboard page to sort uploaded images by category.
+  - Users can assign, resign, and delete labels on images.
+  - Ability to view images filtered by labels.
+
+- **Admin Dashboard Page:**
+  - Admins can create new labels used to categorize images on the main dashboard.
+
+## Project Structure
+
+The project is organized into two main folders:
+- `backend`: Node.js backend using Express and MongoDB.
+- `frontend`: React frontend.
+
+## Getting Started
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/image-management-system.git
+    ```
+
+2. Navigate to the backend and frontend folders and follow the setup instructions in their respective README files.
+
+3. Start the backend and frontend servers.
+
+4. Access the application in your browser.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
